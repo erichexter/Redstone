@@ -1,7 +1,61 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CA171507-8C8A-40A1-93B0-96A2CD48DEDC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc", "Mvc\Mvc.csproj", "{0C6629E7-EC14-4523-A26B-AE8D84452751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{A0B57D4C-BE41-4A86-B781-F872C8107015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{B8FF6B07-026E-4813-A43C-CBA586665C1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{1BC3A0A9-B875-47E7-A0BF-1288F3EF9368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{17794478-E10C-4B7D-A223-172B431CB37B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E88F0A0-9908-4BF9-97CA-DB45FC0ED08C}"
+	ProjectSection(SolutionItems) = preProject
+		build.cmd = build.cmd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solution", "Solution\Solution.csproj", "{77E2F1EE-FA2F-4788-A7DC-F6E959CBC85D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C6629E7-EC14-4523-A26B-AE8D84452751}.Debug|x86.ActiveCfg = Debug|x86
+		{0C6629E7-EC14-4523-A26B-AE8D84452751}.Debug|x86.Build.0 = Debug|x86
+		{0C6629E7-EC14-4523-A26B-AE8D84452751}.Release|x86.ActiveCfg = Release|x86
+		{0C6629E7-EC14-4523-A26B-AE8D84452751}.Release|x86.Build.0 = Release|x86
+		{A0B57D4C-BE41-4A86-B781-F872C8107015}.Debug|x86.ActiveCfg = Debug|x86
+		{A0B57D4C-BE41-4A86-B781-F872C8107015}.Debug|x86.Build.0 = Debug|x86
+		{A0B57D4C-BE41-4A86-B781-F872C8107015}.Release|x86.ActiveCfg = Release|x86
+		{A0B57D4C-BE41-4A86-B781-F872C8107015}.Release|x86.Build.0 = Release|x86
+		{B8FF6B07-026E-4813-A43C-CBA586665C1E}.Debug|x86.ActiveCfg = Debug|x86
+		{B8FF6B07-026E-4813-A43C-CBA586665C1E}.Debug|x86.Build.0 = Debug|x86
+		{B8FF6B07-026E-4813-A43C-CBA586665C1E}.Release|x86.ActiveCfg = Release|x86
+		{B8FF6B07-026E-4813-A43C-CBA586665C1E}.Release|x86.Build.0 = Release|x86
+		{1BC3A0A9-B875-47E7-A0BF-1288F3EF9368}.Debug|x86.ActiveCfg = Debug|x86
+		{1BC3A0A9-B875-47E7-A0BF-1288F3EF9368}.Debug|x86.Build.0 = Debug|x86
+		{1BC3A0A9-B875-47E7-A0BF-1288F3EF9368}.Release|x86.ActiveCfg = Release|x86
+		{1BC3A0A9-B875-47E7-A0BF-1288F3EF9368}.Release|x86.Build.0 = Release|x86
+		{17794478-E10C-4B7D-A223-172B431CB37B}.Debug|x86.ActiveCfg = Debug|x86
+		{17794478-E10C-4B7D-A223-172B431CB37B}.Debug|x86.Build.0 = Debug|x86
+		{17794478-E10C-4B7D-A223-172B431CB37B}.Release|x86.ActiveCfg = Release|x86
+		{17794478-E10C-4B7D-A223-172B431CB37B}.Release|x86.Build.0 = Release|x86
+		{77E2F1EE-FA2F-4788-A7DC-F6E959CBC85D}.Debug|x86.ActiveCfg = Debug|x86
+		{77E2F1EE-FA2F-4788-A7DC-F6E959CBC85D}.Debug|x86.Build.0 = Debug|x86
+		{77E2F1EE-FA2F-4788-A7DC-F6E959CBC85D}.Release|x86.ActiveCfg = Release|x86
+		{77E2F1EE-FA2F-4788-A7DC-F6E959CBC85D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

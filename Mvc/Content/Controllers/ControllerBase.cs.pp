@@ -1,4 +1,7 @@
-﻿namespace $namespace$.Controllers
+﻿using System.Web.Mvc;
+using ShortBus;
+
+namespace UI.Controllers
 {
     using System.Web.Mvc;
     using ShortBus;

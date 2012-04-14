@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0"?>
 <package >
   <metadata>
-    <id>maglev.project.ui</id>
+    <id>maglev.project.mvc</id>
     <version>1.0.0-a</version>
     <title>Mvc Project Template</title>
     <authors>eric hexter</authors>
     <owners>eric hexter</owners>
     <projectUrl>https://github.com/erichexter/MagLev</projectUrl>
-    <copyright>Copyright 2012</copyright>
-    <description>A project template for a ASP.Net MVC project in the MagLev solution</description>
-  </metadata>
+    <copyright>Copyright 2012</copyright>  
+	<description>Maglev MVC project template</description>
+</metadata>
+	
 </package>

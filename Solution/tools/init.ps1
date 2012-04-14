@@ -17,6 +17,7 @@ function global:install-maglev {
 	install-package structuremap
 	install-package StructureMap.MVC3
 	install-package WebActivator
+	install-package maglev.project.mvc -includePrerelease
 
 	install-package EntityFramework -ProjectName Data
 	install-package shortbus.markers -projectname Data -IncludePrerelease
