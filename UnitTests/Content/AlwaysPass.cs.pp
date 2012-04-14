@@ -1,11 +1,12 @@
-﻿using Should;
+﻿using NUnit.Framework;
+using Should;
 
 namespace UnitTests
 {
-    [TestClass]
+    [TestFixture]
     public class AlwaysPass
     {
-        [TestMethod]
+        [Test]
         public void Assert_true()
         {
             true.ShouldBeTrue();

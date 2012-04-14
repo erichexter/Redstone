@@ -1,5 +1,5 @@
 ﻿using System.Data.Entity;
-
+using Data.Model;
 namespace Data
 {
     public class DataModelContext : DbContext

@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Linq;
 using System.Reflection;
+using NUnit.Framework;
 using ShortBus;
+using Should;
 using StructureMap.TypeRules;
 
 namespace UnitTests.SystemExpectations
 {
-    [TestClass]
+    [TestFixture]
     public class AllQueriesHaveAHandler
     {
-        [TestMethod]
+        [Test]
         public void All_query_objects_should_have_a_handler()
         {
             var queryTypes = GetAssembly("core").GetTypes().Where(
@@ -25,7 +27,8 @@ namespace UnitTests.SystemExpectations
                 if (queryHandlerTypes.Any(x => x.GetGenericArguments()[0] == queryType))
                     continue;
 
-                Assert.Fail("no query handler for {0}", queryType.Name);
+                true.ShouldBeFalse(string.Format("no query handler for {0}", queryType.Name));
+                
             }
         }
 

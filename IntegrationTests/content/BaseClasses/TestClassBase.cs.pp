@@ -1,19 +1,20 @@
 ﻿using System;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
-using IntegrationTests.QueryHandlers;
+using Data;
+using NUnit.Framework;
 using StructureMap;
 
 namespace IntegrationTests.BaseClasses
 {
-    [TestClass]
+    [TestFixture]
     public class TestClassBase
     {
         const string SQL_COMPACT_CONNECTION_STRING = "DataModelContext.sdf";
         static IContainer ApplicationContainer;
         static IContainer TestContainer;
 
-        [AssemblyInitialize]
+        [SetUp]
         public static void AssemblyInit(TestContext unused)
         {
             ApplicationContainer = IoC.Initialize();
