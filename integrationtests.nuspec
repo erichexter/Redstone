@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>redstone.project.integrationtests</id>
+    <version>1.0.0-a</version>
+    <title>Integration Test Project Template</title>
+    <authors>eric hexter</authors>
+    <owners>eric hexter</owners>
+    <projectUrl>https://github.com/erichexter/Redstone</projectUrl>
+    <copyright>Copyright 2012</copyright>
+    <description>A project template for a ASP.Net MVC project in the Redstone solution</description>
+  </metadata>
+  <files>
+    <file src="IntegrationTests\**\*.*" target="Content"/>
+  </files>
+</package>
