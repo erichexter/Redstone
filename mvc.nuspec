@@ -11,7 +11,7 @@
     <description>Redstone MVC project template</description>
 </metadata>
     <files>
-  	<files src="MVC\Content\**\*.*" target="Content"/>
-  	<files src="MVC\readme.txt" target="readme.txt"/>  
+  	<file src="MVC\Content\**\*.*" target="Content"/>
+  	<file src="MVC\readme.txt" target="readme.txt"/>  
   </files>
 </package>
