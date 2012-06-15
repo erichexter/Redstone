@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>redstone.project.mvc</id>
+    <version>1.0.0-a</version>
+    <title>Mvc Project Template</title>
+    <authors>eric hexter</authors>
+    <owners>eric hexter</owners>
+    <projectUrl>https://github.com/erichexter/Redstone</projectUrl>
+    <copyright>Copyright 2012</copyright>  
+    <description>Redstone MVC project template</description>
+</metadata>
+    <files>
+  	<file src="MVC\Content\**\*.*" target="Content"/>
+  	<file src="MVC\readme.txt" target="readme.txt"/>  
+  </files>
+</package>
