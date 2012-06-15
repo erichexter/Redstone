@@ -17,12 +17,12 @@ namespace UI.Controllers
 
             protected Response<TResult> Query<TResult>(IQuery<TResult> query)
             {
-                return _bus.Request(query);
+                return _mediator.Request(query);
             }
 
             protected void Command(object command)
             {
-                _bus.Send(command);
+                _mediator.Send(command);
             }
 
             protected ViewResult View<TData>(Response<TData> model)
