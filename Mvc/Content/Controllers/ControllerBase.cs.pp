@@ -8,11 +8,11 @@ namespace UI.Controllers
 
         public abstract class BaseController : Controller
         {
-            readonly IMediator _mediator;
+            readonly IBus _bus;
 
-            protected BaseController(IMediator mediator)
+            protected BaseController(IBus bus)
             {
-                _mediator = mediator;
+                _bus = bus;
             }
 
             protected Response<TResult> Query<TResult>(IQuery<TResult> query)
