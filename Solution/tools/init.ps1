@@ -7,6 +7,7 @@ function global:install-redstone {
 	install-package StructureMap.MVC3
 	install-package WebActivator
 	install-package redstone.project.mvc -includePrerelease
+	install-package twitter.bootstrap.mvc4 -IncludePrerelease
 
 	"Setting Up Core"
 	add-project Core
