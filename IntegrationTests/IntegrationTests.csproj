@@ -36,7 +36,6 @@
   <ItemGroup>
     <None Include="content\App.config.transform" />
     <None Include="content\BaseClasses\TestClassBase.cs.pp" />
-    <None Include="package.nuspec" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

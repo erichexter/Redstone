@@ -39,7 +39,6 @@
     <None Include="Content\Controllers\ControllerBase.cs.pp" />
     <None Include="Content\Views\Shared\ErrorPartial.cshtml" />
     <None Include="Content\Views\Shared\error.cshtml" />
-    <None Include="package.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
