@@ -35,6 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="Content\AlwaysPass.cs.pp" />
+    <None Include="package.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

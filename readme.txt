@@ -1,10 +1,19 @@
+<<<<<<< HEAD
 Redstone is intended to speed up intial creation of an mvc application
+=======
+Maglev is intended to speed up intial creation of an mvc application
+>>>>>>> origin/master
 
 Steps to try it out.
 
 Create a new MVC 3 Empty Template project
+<<<<<<< HEAD
 1. install the Redstone.solution package ( install-package redstone.solution -IncludePrerelease )
 2. in the package manager console type ( install-redstone )
+=======
+1. install the Maglev.solution package ( install-package maglev.solution -IncludePrerelease )
+2. in the package manager console type ( install-maglev )
+>>>>>>> origin/master
 3. Profit
 
 
